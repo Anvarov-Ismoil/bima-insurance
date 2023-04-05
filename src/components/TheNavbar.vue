@@ -8,9 +8,9 @@
 			fixed top-0 left-0 h-full xl:static ">
 
 			<!-- Burger -->
-			<!-- <div class="burger-menu">
+			<div class="burger-menu">
 				<i class="fas fa-bars"></i>
-			</div> -->
+			</div>
 
 				<!-- top -->
 				<div class="top flex items-center justify-between flex-wrap border-b-white/30 border-b-[1px] pb-5 pl-8">
