@@ -7,11 +7,15 @@ module.exports = {
   theme: {
 		container: {
       center: true,
+      padding: '2rem',
     },
     extend: {
 			colors: {
         'brand-color': '#FBBE07',
       },
+      margin: {
+        'section': '90px',
+      }
 		},
   },
   plugins: [],
