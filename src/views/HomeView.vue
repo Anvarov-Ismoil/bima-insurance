@@ -68,7 +68,7 @@ export default {
 }
 </script>
 
-<!-- https://s0.rbk.ru/v6_top_pics/media/img/1/39/756382677989391.jpg  -->
+<!-- https://s0.rbk.ru/v6_top_pics/media/img/1/39/756382677989391.jpg -->
 
 <style>
 /* .home {
@@ -77,12 +77,8 @@ export default {
 	height: 100vh;
 	} */
 
-
-  
-.swiper-wrap {
-  position: relative;
-  z-index: -99;
-}
+/* .swiper-button-next {
+} */
 
 .swiper-button-next::after {
   content: url('../assets/images/arrow-right.png');
