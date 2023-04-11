@@ -67,7 +67,6 @@ export default {
 
 }
 </script>
-
 <!-- https://s0.rbk.ru/v6_top_pics/media/img/1/39/756382677989391.jpg -->
 
 <style>
@@ -77,11 +76,28 @@ export default {
 	height: 100vh;
 	} */
 
-/* .swiper-button-next {
-} */
+.swiper-button-prev::after {
+  content: url('../assets/images/left.png') ' Корпоративное страхование';
+  position: relative;
+  top: 350px;
+  font-weight: 600;
+font-size: 15px;
+line-height: 34px;
+color: #9E9E9E;
+width: 200px;
+padding-left: 210px;
+}
 
 .swiper-button-next::after {
-  content: url('../assets/images/arrow-right.png');
+  content: url('../assets/images/arrow-right.png') ' Автострахование 111' ;
+  position: relative;
+  top: 350px;
+  font-weight: 600;
+font-size: 15px;
+line-height: 34px;
+color: #9E9E9E;
+width: 200px;
+padding-right: 300px;
 }
 
 .swiper-wrap .swiper {
