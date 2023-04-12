@@ -12,6 +12,8 @@ module.exports = {
     extend: {
 			colors: {
         'brand-color': '#FBBE07',
+        'dark-gray': '#312B2B',
+        'light-gray': '#8D8D8D',
       },
       margin: {
         'section': '90px',

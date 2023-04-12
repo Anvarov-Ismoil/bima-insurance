@@ -6,7 +6,7 @@
         <img src="../assets/images/logo.png" alt="logo" class="w-full h-full object-cover" />
       </div>
       <div v-if="isMenuOpened"
-        class="content p-12 md:p-20 md:pl-5 xl:p-0 bg-black xl:bg-transparent w-full h-full xl:border-l-white/30 xl:border-l-[1px] fixed top-0 left-0 xl:static">
+        class="content p-12 md:p-20 md:pl-5 xl:p-0 bg-black xl:bg-transparent w-full h-[100vh] xl:h-auto xl:border-l-white/30 xl:border-l-[1px] fixed top-0 left-0 z-20 xl:static">
         <!-- top -->
         <div
           class="top flex items-center justify-between flex-wrap border-b-white/30 border-b-[1px] pb-5 pl-8 mt-20 xl:mt-0">
@@ -28,7 +28,6 @@
               <i class="fas fa-phone-alt text-brand-color"></i>
               <span class="text-white">(44) 601 55 11</span>
             </p>
-
             <ul>
               <li class="text-white">
                 Русский <i class="fas fa-chevron-down"></i>

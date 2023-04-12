@@ -33,17 +33,19 @@
     </swiper>
   </section>
   <Services />
+  <NewsSection />
 </template>
 
 <script lang="js">
 import TheButton from '../components/TheButton.vue';
-import Services from '../sections/Services.vue'
+import Services from '../sections/Services.vue';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Pagination, Navigation, Autoplay, EffectFade } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import "swiper/css/effect-fade";
+import NewsSection from '../sections/NewsSection.vue';
 
 export default {
 
@@ -52,7 +54,8 @@ export default {
     SwiperSlide,
     TheButton,
     Services,
-  },
+    NewsSection,
+},
 
   data() {
     return {
