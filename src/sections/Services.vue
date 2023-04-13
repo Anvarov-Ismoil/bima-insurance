@@ -19,7 +19,8 @@ import TheCard from "../components/TheCard.vue";
 import TheTitle from "../components/TheTitle.vue";
 import service_1 from "../assets/images/service_2.png";
 import service_2 from "../assets/images/service_1.png";
-
+import service_3 from "../assets/images/service_3.png";
+import service_4 from "../assets/images/service_4.png"
 export default {
     data() {
         return {
@@ -31,13 +32,13 @@ export default {
                     button: "Подробнее",
                 },
                 {
-                    image: service_1,
+                    image: service_3,
                     title: "Опция COVID-19",
                     text: "Медицинский полис путешественника с опцией COVID-19",
                     button: "Подробнее",
                 },
                 {
-                    image: service_2,
+                    image: service_4,
                     title: "Телохранитель +",
                     text: "Уникальный выгодный вариант в непредвиденных ситуациях",
                     button: "Подробнее",
