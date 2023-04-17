@@ -1,5 +1,5 @@
 <template>
-  <section class="news py-[100px]">
+  <section class="news mt-36">
 
     <div class="container">
       <div class="titles flex justify-between">
@@ -12,7 +12,7 @@
       </div>
 
       <div class="wrapper flex md:grid justify-center items-start flex-wrap gap-14">
-        <News v-for="item in newsArray" :key="item" :subtitle="item.subtitle" :title="item.title" :desc="item.desc"
+        <newsCard v-for="item in newsArray" :key="item" :subtitle="item.subtitle" :title="item.title" :desc="item.desc"
           :image="item.image" />
       </div>
     </div>
@@ -21,13 +21,13 @@
 
 <script>
 import TheTitle from '../components/TheTitle.vue';
-import News from './news.vue';
+import newsCard from '../sections/news.vue';
 import image_1 from "../assets/images/news_1.png"
 
 export default {
   components: {
     TheTitle,
-    News
+    newsCard,
   },
   data() {
     return {

@@ -34,6 +34,7 @@
   </section>
   <Services />
   <NewsSection />
+  <Partners />
 </template>
 
 <script lang="js">
@@ -46,6 +47,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import "swiper/css/effect-fade";
 import NewsSection from '../sections/NewsSection.vue';
+import Partners from '../sections/Partners.vue';
 
 export default {
 
@@ -55,6 +57,7 @@ export default {
     TheButton,
     Services,
     NewsSection,
+    Partners,
 },
 
   data() {
