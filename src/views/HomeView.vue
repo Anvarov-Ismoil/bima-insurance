@@ -81,11 +81,12 @@ export default {
 		url("../assets/images/home-bg.png") no-repeat center / cover;
 	height: 100vh;
 	} */
-
+  
 .swiper-button-prev::after {
-  content: url('../assets/images/left.png') ' Корпоративное страхование';
+  content: 
+   url( '../assets/images/left.png') ' Корпоративное страхование';
   position: relative;
-  top: 350px;
+  top: 300px;
   font-weight: 600;
 font-size: 15px;
 line-height: 34px;
@@ -95,9 +96,12 @@ padding-left: 210px;
 }
 
 .swiper-button-next::after {
-  content: url('../assets/images/arrow-right.png') ' Автострахование 111' ;
-  position: relative;
-  top: 350px;
+  content: 
+   url('../assets/images/arrow-right.png')
+   'Автострахование 111' ;
+ text-align: right;
+   position: relative;
+  top: 300px;
   font-weight: 600;
 font-size: 15px;
 line-height: 34px;

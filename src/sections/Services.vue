@@ -1,14 +1,16 @@
 <template>
     <section class="services my-section">
         <div class="container">
-            <TheTitle>Популярные услуги</TheTitle>
+            <div class="titles flex justify-between">
+                <TheTitle>Популярные услуги</TheTitle>
+                <div class="arrows flex gap-6">
+                    <button class="btn"><img src="../assets/images/Arrow 6.png" alt=""></button>
+                    <button class="btn "><img src="../assets/images/Arrow 5.png" alt=""></button>
+                </div>
+            </div>
             <div class="wrapper flex justify-center items-stretch flex-wrap gap-8 w-full">
-                <TheCard v-for="item in servicesArray" :key="item" 
-                :title="item.title"
-                :text="item.text"
-                :button="item.button"
-                :image="item.image"
-                />
+                <TheCard v-for="item in servicesArray" :key="item" :title="item.title" :text="item.text"
+                    :button="item.button" :image="item.image" />
             </div>
         </div>
     </section>
