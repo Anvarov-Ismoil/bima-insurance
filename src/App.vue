@@ -1,7 +1,7 @@
 <template>
 	<TheNavbar />
 	<RouterView />
-	<TheFooter />
+	<!-- <TheFooter /> -->
 </template>
 
 

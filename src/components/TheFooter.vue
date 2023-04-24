@@ -61,7 +61,7 @@
         </ul>
       </div>
     </div>
-    <div class="bottom px-20 border-t border-white/30 w-[1400px] ml-11 py-5">
+    <div class="bottom px-20 border-t border-white/30 ml-11 py-5">
       <div class="flex justify-between flex-wrap ">
         <p class="text-white">© 2021. Все права защищены</p>
         <p class="text-white ">Разработка сайта: <span class="text-gray-400">Online Service

@@ -2,108 +2,39 @@
   <section class="partners">
     <div class="container">
       <div class="titles flex justify-between">
-        <TheTitle>Отзывы</TheTitle>
+        <TheTitle>Наши партнеры</TheTitle>
         <div class="arrows flex gap-6">
-          <button class="btn"><img src="../assets/images/Arrow 6.png" alt=""></button>
-          <button class="btn"><img src="../assets/images/Arrow 5.png" alt=""></button>
+          <button class="btn prev"><img src="../assets/images/Arrow 6.png" alt=""></button>
+          <button class="btn next"><img src="../assets/images/Arrow 5.png" alt=""></button>
         </div>
       </div>
-      <swiper :navigation="true" :modules="modules" class="mySwiper">
-        <swiper-slide class="flex gap-8">
-          <div class="card w-[690px]  py-10 rounded-sm shadow-lg shadow-[rgba(56, 56, 56, 0.05)]">
-            <div class="user flex gap-5">
-              <img src="../assets/images/user_1.png" alt="" class="w-[85px] h-[85px] rounded-full ">
-              <div class="username">
-                <h1 class="font-extrabold text-lg text-[#312B2B]">Дилшод Назаров</h1>
-                <h4 class="font-semibold text-base text-[#514A4A]">Олимпийский чемпион</h4>
-              </div>
-
-              <ul class="flex gap-2 ml-60 pt-2">
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-              </ul>
-            </div>
-            <p class="desc p-6 w-[600px] font-semibold text-base text-[#8D8D8D]">Чтобы избежать лишних финансовых затрат,
-              я застраховал квартиру
-              полисом “Салом, Сосед!” где сумма выплаты в случае затопа, пожара или
-              кражи может гарантировано достигать до 40 000 сомони.
-              Уверен, что взглянув на выгоду полиса и вы сделаете правильный выбор.
-              Я доверяю полису “Салом, Сосед!” и вам советую!</p>
-          </div>
-          <div class="card w-[690px]  py-10 rounded-sm shadow-lg shadow-[rgba(56, 56, 56, 0.05)]">
-            <div class="user flex gap-5">
-              <img src="../assets/images/user_2.png" alt="" class="w-[85px] h-[85px] rounded-full ">
-              <div class="username">
-                <h1 class="font-extrabold text-lg text-[#312B2B]">Дилшод Джураев</h1>
-                <h4 class="font-semibold text-base text-[#514A4A]">Учредитель “55 group”</h4>
-              </div>
-
-              <ul class="flex gap-2 ml-60 pt-2">
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-              </ul>
-            </div>
-            <p class="desc p-6 w-[600px] font-semibold text-base text-[#8D8D8D]">Дилшод Джураев - предприниматель,
-              учредитель “55 group”. Выбор
-              страхового полиса - важное дело, к которому Дилшод относится серьезно.
-              Он решил остановить свой выбор на удобном и быстром страховании
-              своего имущества и приобрел страховой полис “Салом, Сосед!” от
-              компании BIMA</p>
-          </div>
-          <!-- Slide 1 -->
-        </swiper-slide>
-        <swiper-slide class="flex gap-8">
-          <div class="card w-[690px]  py-10 rounded-sm shadow-lg shadow-[rgba(56, 56, 56, 0.05)]">
-            <div class="user flex gap-5">
-              <img src="../assets/images/user_1.png" alt="" class="w-[85px] h-[85px] rounded-full ">
-              <div class="username">
-                <h1 class="font-extrabold text-lg text-[#312B2B]">Дилшод Назаров</h1>
-                <h4 class="font-semibold text-base text-[#514A4A]">Олимпийский чемпион</h4>
-              </div>
-
-              <ul class="flex gap-2 ml-60 pt-2">
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-              </ul>
-            </div>
-            <p class="desc p-6 w-[600px] font-semibold text-base text-[#8D8D8D]">Чтобы избежать лишних финансовых затрат,
-              я застраховал квартиру
-              полисом “Салом, Сосед!” где сумма выплаты в случае затопа, пожара или
-              кражи может гарантировано достигать до 40 000 сомони.
-              Уверен, что взглянув на выгоду полиса и вы сделаете правильный выбор.
-              Я доверяю полису “Салом, Сосед!” и вам советую!</p>
-          </div>
-          <div class="card w-[690px]  py-10 rounded-sm shadow-lg shadow-[rgba(56, 56, 56, 0.05)]">
-            <div class="user flex gap-5">
-              <img src="../assets/images/user_2.png" alt="" class="w-[85px] h-[85px] rounded-full ">
-              <div class="username">
-                <h1 class="font-extrabold text-lg text-[#312B2B]">Дилшод Джураев</h1>
-                <h4 class="font-semibold text-base text-[#514A4A]">Учредитель “55 group”</h4>
-              </div>
-
-              <ul class="flex gap-2 ml-60 pt-2">
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-                <li><img src="../assets/images/star.png" alt="#"></li>
-              </ul>
-            </div>
-            <p class="desc p-6 w-[600px] font-semibold text-base text-[#8D8D8D]">Дилшод Джураев - предприниматель,
-              учредитель “55 group”. Выбор
-              страхового полиса - важное дело, к которому Дилшод относится серьезно.
-              Он решил остановить свой выбор на удобном и быстром страховании
-              своего имущества и приобрел страховой полис “Салом, Сосед!” от
-              компании BIMA</p>
+      <swiper :modules="modules" :breakpoints="{
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10
+        },
+        // when window width is >= 640px
+        425: {
+          slidesPerView: 2,
+          spaceBetween: 10
+        },
+        650: {
+          slidesPerView: 3
+        },
+        1000: {
+          slidesPerView: 4
+        },
+        1255: { slidesPerView: 5 },
+        1300: { slidesPerView: 6 }
+      }" :navigation="{
+  nextEl: '.next',
+  prevEl: '.prev',
+}" :loop="true" :slidesPerView="6" class="mySwiper my-5">
+        <swiper-slide class="flex gap-8" v-for="item in partnersArray" :key="item">
+          <div class="card w-[210px] h-[140px] flex items-center justify-center m-2 rounded-sm shadow-lg 
+                shadow-[rgba(56, 56, 56, 0.05)]">
+            <img :src="item.image" alt="#">
           </div>
           <!-- Slide 1 -->
         </swiper-slide>
@@ -115,9 +46,13 @@
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/navigation';
-// import './style.css';
 import { Navigation } from 'swiper';
 import TheTitle from '../components/TheTitle.vue';
+import image_1 from '../assets/images/partner_3.png'
+import image_2 from '../assets/images/partner_3.png'
+import image_3 from '../assets/images/partner_3.png'
+import image_4 from '../assets/images/partner_3.png'
+import image_5 from '../assets/images/partner_3.png'
 export default {
   components: {
     Swiper,
@@ -127,7 +62,33 @@ export default {
   data() {
     return {
       modules: [Navigation],
+      partnersArray: [
+        {
+          image: image_1
+        },
+        {
+          image: image_2
+        },
+        {
+          image: image_3
+        },
+        {
+          image: image_4
+        },
+        {
+          image: image_5
+        },
+        {
+          image: image_5
+        },
+      ]
     };
   },
 };
 </script>
+
+<style scoped>
+.swiper-button-lock {
+  display: block;
+}
+</style>
