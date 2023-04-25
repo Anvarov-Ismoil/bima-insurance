@@ -48,11 +48,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
 import TheTitle from '../components/TheTitle.vue';
-import image_1 from '../assets/images/partner_3.png'
-import image_2 from '../assets/images/partner_3.png'
+import image_1 from '../assets/images/partner_1.png'
+import image_2 from '../assets/images/partner_2.png'
 import image_3 from '../assets/images/partner_3.png'
-import image_4 from '../assets/images/partner_3.png'
-import image_5 from '../assets/images/partner_3.png'
+import image_4 from '../assets/images/partner_4.png'
+import image_5 from '../assets/images/partner_5.png'
+import image_6 from '../assets/images/partner_6.png'
 export default {
   components: {
     Swiper,
@@ -79,7 +80,25 @@ export default {
           image: image_5
         },
         {
+          image: image_6
+        },
+        {
+          image: image_1
+        },
+        {
+          image: image_2
+        },
+        {
+          image: image_3
+        },
+        {
+          image: image_4
+        },
+        {
           image: image_5
+        },
+        {
+          image: image_6
         },
       ]
     };

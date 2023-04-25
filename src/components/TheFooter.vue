@@ -9,15 +9,15 @@
           и мирового опыта
         </h3>
         <div class="flex gap-3 mt-12">
-          <img class="" src="../assets/images/face1.png" alt="photo" />
-          <img src="../assets/images/inst.png" alt="photo" />
+          <img class="w-5 h-5" src="../assets/images/face1.png" alt="photo" />
+          <img class="w-5 h-5" src="../assets/images/inst.png" alt="photo" />
         </div>
       </div>
       <div class="center leading-10 pt-[52px] text-white">
         <h2 class="font-extrabold text-xl pb-5">Контакты</h2>
         <ul>
           <li class="flex items-center">
-            <img class=" pr-[10px] w-[25px] h-[18px]" src="../assets/images/locatsia.png" alt="" />
+            <img class=" pr-[10px] w-7 h-5" src="../assets/images/locatsia.png" alt="" />
             г. Душанбе, ул. Нусратулло Махсум 74/3
           </li>
           <li class="flex items-center">
@@ -29,7 +29,7 @@
             mail@bima.tj
           </li>
           <li class="flex items-center">
-            <img class=" pr-[10px] w-[25px] h-[18px]" src="../assets/images/time.png" alt="photo" />
+            <img class=" pr-[10px] w-6 h-4" src="../assets/images/time.png" alt="photo" />
             Понедельник - Пятница: 9:00 - 18:00. Суббота: 10:00 - 12:00
           </li>
         </ul>
