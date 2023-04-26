@@ -36,6 +36,7 @@
   <Services />
   <NewsSection />
   <Reviews />
+  <Info />
   <Partners />
 </template>
 
@@ -50,6 +51,7 @@ import 'swiper/css/navigation';
 import "swiper/css/effect-fade";
 import NewsSection from '../sections/NewsSection.vue';
 import Partners from '../sections/Partners.vue';
+import Info from '../sections/Info.vue'
 import Reviews from '../sections/Reviews.vue';
 
 export default {
@@ -61,6 +63,7 @@ export default {
     Services,
     NewsSection,
     Partners,
+    Info,
     Reviews,
 },
 
@@ -77,6 +80,8 @@ export default {
 
 }
 </script>
+<!-- https://s0.rbk.ru/v6_top_pics/media/img/1/39/756382677989391.jpg -->
+
 <!-- https://s0.rbk.ru/v6_top_pics/media/img/1/39/756382677989391.jpg -->
 
 <style>

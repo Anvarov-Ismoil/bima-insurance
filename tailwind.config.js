@@ -1,16 +1,16 @@
-/** @type {import('tailwindcss').Config} */
+/ @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-		container: {
+    container: {
       center: true,
       padding: '2rem',
     },
     extend: {
-			colors: {
+      colors: {
         'brand-color': '#FBBE07',
         'dark-gray': '#312B2B',
         'light-gray': '#8D8D8D',
@@ -22,4 +22,3 @@ module.exports = {
   },
   plugins: [],
 }
-
