@@ -1,5 +1,5 @@
 <template>
-  <section class="partners">
+  <section class="About">
     <div class="container">
       <div class="card">
         <div class="info flex justify-between py-20 items-center">

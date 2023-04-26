@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: Mont400;
+      font-weight: 400;
+      src: url(../assets/fonts/Mont-Regular.woff) format("woff");
+    }
+    @font-face {
+      font-family: Mont600;
+      font-weight: 600;
+      src: url(../assets/fonts/Mont-SemiBold.woff) format("woff");
+    }
+    @font-face {
+      font-family: Mont800;
+      font-weight: 800;
+      src: url(../assets/fonts/Mont-Black.woff) format("woff");
+    }
+  }

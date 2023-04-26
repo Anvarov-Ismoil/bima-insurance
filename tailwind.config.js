@@ -10,6 +10,11 @@ module.exports = {
       padding: '2rem',
     },
     extend: {
+      fontFamily:{
+        Mont400:['Mont400'],
+        Mont600:['Mont600'],
+        Mont800:['Mont800']
+      },
       colors: {
         'brand-color': '#FBBE07',
         'dark-gray': '#312B2B',
