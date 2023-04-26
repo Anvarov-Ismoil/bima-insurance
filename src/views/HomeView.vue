@@ -9,6 +9,7 @@
         '--swiper-navigation-color': '#fff',
         '--swiper-pagination-color': '#fff',
       }">
+     
       <swiper-slide class="swiper">
         <div class="container">
           <h1>Страхование груза в пути</h1>
@@ -85,9 +86,13 @@ export default {
 	height: 100vh;
 	} */
   
+  .swiper-button-prev{
+
+  }
+
 .swiper-button-prev::after {
   content: 
-   url( '../assets/images/left.png') ' Корпоративное страхование';
+  url( '../assets/images/left.png') "Корпоративное страхование";
   position: relative;
   top: 300px;
   font-weight: 600;
@@ -95,13 +100,14 @@ font-size: 15px;
 line-height: 34px;
 color: #9E9E9E;
 width: 200px;
-padding-left: 210px;
+padding-left: 150px;
 }
 
 .swiper-button-next::after {
   content: 
-   url('../assets/images/arrow-right.png')
-   'Автострахование 111' ;
+  url('../assets/images/arrow-right.png')
+  'Автострахование 111' 
+   ;
  text-align: right;
    position: relative;
   top: 300px;
