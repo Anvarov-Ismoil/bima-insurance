@@ -1,6 +1,5 @@
 <template>
   <section class="news py-[100px]">
-
     <div class="container">
       <div class="titles flex justify-between">
         <TheTitle>Новости</TheTitle>
@@ -13,7 +12,7 @@
 
       <div class="wrapper flex md:grid justify-center items-start flex-wrap gap-14">
         <News v-for="item in newsArray" :key="item" :subtitle="item.subtitle" :title="item.title" :desc="item.desc"
-          :image="item.image" />
+          :image="item.image"/>
       </div>
     </div>
   </section>

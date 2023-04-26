@@ -1,6 +1,6 @@
 <template>
   <footer class=" bg-[#2F2E33]   mt-[90px]">
-    <div class="container justify-between flex px-16 py-4 gap-16">
+    <div class="container  justify-between flex px-16 py-4 gap-16">
       <div class="left">
         <img class="pt-[36px] mb-[20px]" src="../assets/images/logo.png" alt="photo" />
         <h3 class="text-[#fff] text-[15px]">
@@ -37,7 +37,7 @@
       <div class="right leading-10 pt-[52px] text-white">
         <h2 class="font-extrabold text-xl pb-5">Полезные ссылки</h2>
         <ul>
-          <li  class="text-white flex items-center">
+          <li class="text-white flex items-center">
             <img class="w-[9px] h-[9px] mr-[6px]" src="../assets/images/r.png" alt="photo">
             Вакансии
           </li>
@@ -61,13 +61,13 @@
         </ul>
       </div>
     </div>
-    <div class="bottom px-20 border-t border-white/30 ml-11 py-5">
-      <div class="flex justify-between flex-wrap ">
-        <p class="text-white">© 2021. Все права защищены</p>
-        <p class="text-white ">Разработка сайта: <span class="text-gray-400">Online Service
-            Group</span></p>
+      <div class="bottom px-20 border-t border-white/30 ml-11 py-5">
+        <div class="flex justify-between flex-wrap ">
+          <p class="text-white">© 2021. Все права защищены</p>
+          <p class="text-white ">Разработка сайта: <span class="text-gray-400">Online Service
+              Group</span></p>
+        </div>
       </div>
-    </div>
   </footer>
 </template>
 

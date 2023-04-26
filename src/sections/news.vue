@@ -1,6 +1,4 @@
 <template>
-	<!-- <section class="news">
-		<div class="container"> -->
 			<div class="news-card">
 				<img v-if="image" :src="image" alt="#" class="md:w-[400px] lg:w-[645px]
 				 h-[300px] object-cover">
@@ -16,8 +14,6 @@
 					{{ desc }}
 				</p>
 			</div>
-		<!-- </div>
-	</section> -->
 </template>
 <script>
 export default {
