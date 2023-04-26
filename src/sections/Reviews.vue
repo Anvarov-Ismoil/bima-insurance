@@ -30,8 +30,8 @@
               <div class="flex items-center gap-5">
                 <img src="../assets/images/user_1.png" alt="" class="w-[85px] h-[85px] rounded-full ">
                 <div class="contacts">
-                  <h1 class="font-extrabold text-md md:text-lg text-[#312B2B]">Дилшод Назаров</h1>
-                  <h4 class="font-semibold text-sm md:text-base mb-2 md:mb-0 text-[#514A4A]">Олимпийский чемпион</h4>
+                  <h1 class="font-Mont800 text-md md:text-lg text-[#312B2B]">Дилшод Назаров</h1>
+                  <h4 class="font-Mont600 text-sm md:text-base mb-2 md:mb-0 text-[#514A4A]">Олимпийский чемпион</h4>
                   <ul class="flex gap-2 xl:hidden">
                     <li><img src="../assets/images/star.png" alt="#"></li>
                     <li><img src="../assets/images/star.png" alt="#"></li>
@@ -51,7 +51,7 @@
               </ul>
             </div>
             <p
-              class="desc max-w-[600px] pt-3 md:pt-5 font-semibold text-base text-[#8D8D8D] overflow-scroll md:overflow-auto h-40 md:h-full">
+              class="desc max-w-[600px] pt-3 md:pt-5 font-semibold text-base text-[#8D8D8D] overflow-scroll md:overflow-auto h-40 md:h-full font-Mont600">
               Чтобы избежать лишних финансовых
               затрат,
               я застраховал квартиру
@@ -68,8 +68,8 @@
               <div class="flex items-center gap-5">
                 <img src="../assets/images/user_2.png" alt="" class="w-[85px] h-[85px] rounded-full ">
                 <div class="contacts">
-                  <h1 class="font-extrabold text-md md:text-lg text-[#312B2B]">Дилшод Джураев</h1>
-                  <h4 class="font-semibold text-sm md:text-base mb-2 md:mb-0 text-[#514A4A]">Учредитель “55 group”</h4>
+                  <h1 class="font-extrabold text-md md:text-lg text-[#312B2B] font-Mont800">Дилшод Джураев</h1>
+                  <h4 class="font-semibold text-sm md:text-base mb-2 md:mb-0 text-[#514A4A] font-Mont600">Учредитель “55 group”</h4>
                   <ul class="flex gap-2 xl:hidden">
                     <li><img src="../assets/images/star.png" alt="#"></li>
                     <li><img src="../assets/images/star.png" alt="#"></li>
@@ -89,7 +89,7 @@
               </ul>
             </div>
             <p
-              class="desc max-w-[600px] pt-3 md:pt-5 font-semibold text-base text-[#8D8D8D] overflow-scroll md:overflow-auto h-40 md:h-full">
+              class="desc max-w-[600px] pt-3 md:pt-5 font-semibold text-base text-[#8D8D8D] overflow-scroll md:overflow-auto h-40 md:h-full font-Mont600">
               Дилшод Джураев - предприниматель, учредитель “55 group”. Выбор
               страхового полиса - важное дело, к которому Дилшод относится серьезно.
               Он решил остановить свой выбор на удобном и быстром страховании
@@ -104,8 +104,8 @@
               <div class="flex items-center gap-5">
                 <img src="../assets/images/user_1.png" alt="" class="w-[85px] h-[85px] rounded-full ">
                 <div class="contacts">
-                  <h1 class="font-extrabold text-md md:text-lg text-[#312B2B]">Дилшод Назаров</h1>
-                  <h4 class="font-semibold text-sm md:text-base mb-2 md:mb-0 text-[#514A4A]">Олимпийский чемпион</h4>
+                  <h1 class="font-extrabold text-md md:text-lg text-[#312B2B] font-Mont800">Дилшод Назаров</h1>
+                  <h4 class="font-semibold text-sm md:text-base mb-2 md:mb-0 text-[#514A4A] font-Mont600">Олимпийский чемпион</h4>
                   <ul class="flex gap-2 xl:hidden">
                     <li><img src="../assets/images/star.png" alt="#"></li>
                     <li><img src="../assets/images/star.png" alt="#"></li>
@@ -125,7 +125,7 @@
               </ul>
             </div>
             <p
-              class="desc max-w-[600px] pt-3 md:pt-5 font-semibold text-base text-[#8D8D8D] overflow-scroll md:overflow-auto h-40 md:h-full">
+              class="desc max-w-[600px] pt-3 md:pt-5 font-semibold text-base text-[#8D8D8D] overflow-scroll md:overflow-auto h-40 md:h-full font-Mont600">
               Чтобы избежать лишних финансовых
               затрат,
               я застраховал квартиру
@@ -142,8 +142,8 @@
               <div class="flex items-center gap-5">
                 <img src="../assets/images/user_2.png" alt="" class="w-[85px] h-[85px] rounded-full ">
                 <div class="contacts">
-                  <h1 class="font-extrabold text-md md:text-lg text-[#312B2B]">Дилшод Джураев</h1>
-                  <h4 class="font-semibold text-sm md:text-base mb-2 md:mb-0 text-[#514A4A]">Учредитель “55 group”</h4>
+                  <h1 class="font-extrabold text-md md:text-lg text-[#312B2B] font-Mont800">Дилшод Джураев</h1>
+                  <h4 class="font-semibold text-sm md:text-base mb-2 md:mb-0 text-[#514A4A] font-Mont600">Учредитель “55 group”</h4>
                   <ul class="flex gap-2 xl:hidden">
                     <li><img src="../assets/images/star.png" alt="#"></li>
                     <li><img src="../assets/images/star.png" alt="#"></li>
@@ -163,7 +163,7 @@
               </ul>
             </div>
             <p
-              class="desc max-w-[600px] pt-3 md:pt-5 font-semibold text-base text-[#8D8D8D] overflow-scroll md:overflow-auto h-40 md:h-full">
+              class="desc max-w-[600px] pt-3 md:pt-5 font-semibold text-base text-[#8D8D8D] overflow-scroll md:overflow-auto h-40 md:h-full font-Mont600">
               Дилшод Джураев - предприниматель, учредитель “55 group”. Выбор
               страхового полиса - важное дело, к которому Дилшод относится серьезно.
               Он решил остановить свой выбор на удобном и быстром страховании

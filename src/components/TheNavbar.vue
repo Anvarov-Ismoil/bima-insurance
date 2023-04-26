@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed top-0 left-0 right-0 z-50"
+  <header class="fixed top-0 left-0 right-0 z-50 font-Mont600"
     :class="[is_navbar_active ? 'scroll' : 'bg-transparent', checkRouteToChangeNavColor]">
     <div class="container py-5 flex items-center xl:items-start justify-between gap-20 xxl:gap-60">
       <div class="logo w-28 md:w-52">

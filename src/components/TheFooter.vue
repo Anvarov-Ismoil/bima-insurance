@@ -1,6 +1,6 @@
 <template>
   <footer class=" bg-[#2F2E33]   mt-[90px]">
-    <div class="container flex justify-between flex-wrap px-16 py-4 gap-16">
+    <div class="container flex justify-between flex-wrap px-16 py-4 gap-16 font-Mont600">
       <div class="left">
         <img class="pt-[36px] mb-[20px]" src="../assets/images/logo.png" alt="photo" />
         <h3 class="text-[#fff] text-[15px]">
@@ -13,8 +13,8 @@
           <img class="w-5 h-5" src="../assets/images/inst.png" alt="photo" />
         </div>
       </div>
-      <div class="center leading-10 lg:pt-[52px] text-white">
-        <h2 class="font-extrabold text-xl pb-5">Контакты</h2>
+      <div class="center leading-10 lg:pt-[52px] text-white ">
+        <h2 class="font-extrabold text-xl pb-5 font-Mont800">Контакты</h2>
         <ul>
           <li class="flex items-center">
             <img class=" pr-[10px] w-7 h-5" src="../assets/images/locatsia.png" alt="" />
@@ -35,7 +35,7 @@
         </ul>
       </div>
       <div class="right leading-10 lg:pt-[52px] text-white">
-        <h2 class="font-extrabold text-xl pb-5">Полезные ссылки</h2>
+        <h2 class="font-extrabold text-xl pb-5 font-Mont800">Полезные ссылки</h2>
         <ul>
           <li class="text-white flex items-center">
             <img class="w-[9px] h-[9px] mr-[6px]" src="../assets/images/r.png" alt="photo">

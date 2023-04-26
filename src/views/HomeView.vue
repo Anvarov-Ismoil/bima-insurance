@@ -12,22 +12,22 @@
      
       <swiper-slide class="swiper">
         <div class="container">
-          <h1>Страхование груза в пути</h1>
-          <p>На страже Ваших интересов!</p>
+          <h1 class="font-Mont800">Страхование груза в пути</h1>
+          <p class="font-Mont600">На страже Ваших интересов!</p>
           <TheButton type="bg-brand-color" color="text-black" @action="someMethod">Подробнее</TheButton>
         </div>
       </swiper-slide>
       <swiper-slide class="swiper">
         <div class="container">
-          <h1>Страхование груза в пути</h1>
-          <p>На страже Ваших интересов!</p>
+          <h1 class="font-Mont800">Страхование груза в пути</h1>
+          <p class="font-Mont600">На страже Ваших интересов!</p>
           <TheButton type="bg-brand-color" color="text-black" @action="someMethod">Подробнее</TheButton>
         </div>
       </swiper-slide>
       <swiper-slide class="swiper">
         <div class="container">
-          <h1>Страхование груза в пути</h1>
-          <p>На страже Ваших интересов!</p>
+          <h1 class="font-Mont800">Страхование груза в пути</h1>
+          <p class="font-Mont600">На страже Ваших интересов!</p>
           <TheButton type="bg-brand-color" color="text-black" @action="someMethod">Подробнее</TheButton>
         </div>
       </swiper-slide>

@@ -1,5 +1,5 @@
 <template>
-			<div class="news-card">
+			<div class="news-card font-Mont600">
 				<img v-if="image" :src="image" alt="#" class="md:w-[400px] lg:w-[645px]
 				 h-[300px] object-cover">
 				<p class="text-[15px] text-brand-color mt-8 flex gap-4 lg:gap-8">
