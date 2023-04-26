@@ -1,11 +1,6 @@
 <template>
     <section class="services my-section">
         <div class="container">
-<<<<<<< HEAD
-            <TheTitle>Популярные услуги</TheTitle>
-            <div class="wrapper flex items-center justify-center flex-wrap gap-8 w-full">
-                <TheCard v-for="item in 4" :key="item"/>
-=======
             <div class="titles flex justify-between">
                 <TheTitle>Популярные услуги</TheTitle>
                 <div class="arrows flex gap-6">
@@ -16,25 +11,12 @@
             <div class="wrapper flex justify-center items-stretch flex-wrap gap-8 w-full">
                 <TheCard v-for="item in servicesArray" :key="item" :title="item.title" :text="item.text"
                     :button="item.button" :image="item.image" />
->>>>>>> 13ba6e97bb8bc857e13058ac1d5be13b73e392c8
             </div>
         </div>
     </section>
 </template>
 
 <script>
-<<<<<<< HEAD
-import TheCard from '../components/TheCard.vue'
-import TheTitle from '../components/TheTitle.vue';
-
-export default{
-    components:{
-    TheCard,
-    TheTitle
-}
-
-}
-=======
 import TheCard from "../components/TheCard.vue";
 import TheTitle from "../components/TheTitle.vue";
 import service_1 from "../assets/images/service_2.png";
@@ -77,5 +59,4 @@ export default {
         TheTitle,
     },
 };
->>>>>>> 13ba6e97bb8bc857e13058ac1d5be13b73e392c8
 </script>
