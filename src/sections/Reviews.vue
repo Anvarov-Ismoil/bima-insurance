@@ -1,5 +1,5 @@
 <template>
-  <section class="partners">
+  <section class="reviews mt-section">
     <div class="container">
       <div class="titles flex justify-between">
         <TheTitle>Отзывы</TheTitle>

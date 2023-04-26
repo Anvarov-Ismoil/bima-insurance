@@ -11,7 +11,7 @@
         </h1>
       </div>
 
-      <div class="wrapper flex md:grid justify-center items-start flex-wrap gap-14">
+      <div class="wrapper flex lg:grid justify-center items-start flex-wrap gap-14">
         <News v-for="item in newsArray" :key="item" :subtitle="item.subtitle" :title="item.title" :desc="item.desc"
           :image="item.image" />
       </div>
@@ -39,7 +39,7 @@ export default {
           desc: "  По завершении церемонии руководство Страховой организации «BIMA» выразила искреннюю благодарность всему коллективу Банка «Арванд» за плодотворную работу и  высокий профессионализм",
         },
         {
-          subtitle: "02.05 2021",
+          subtitle: "02.05.2021",
           title: "Первая международная олимпиада по ментальной арифметике «ШОСkids»",
           desc: "В Душанбе в Президентском лицее для одаренных детей состоялась Первая Международная Олимпиада по ментальной арифметике «ШОСkids 21»",
         },
