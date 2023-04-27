@@ -85,15 +85,7 @@ export default {
 <!-- https://s0.rbk.ru/v6_top_pics/media/img/1/39/756382677989391.jpg -->
 
 <style>
-/* .home {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("../assets/images/home-bg.png") no-repeat center / cover;
-	height: 100vh;
-	} */
-  
-  .swiper-button-prev{
 
-  }
 
 .swiper-button-prev::after {
   content: 
