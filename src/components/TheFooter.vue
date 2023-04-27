@@ -9,8 +9,8 @@
           и мирового опыта
         </h3>
         <div class="flex gap-3 mt-12">
-          <img class="w-5 h-5" src="../assets/images/face1.png" alt="photo" />
-          <img class="w-5 h-5" src="../assets/images/inst.png" alt="photo" />
+          <img class="w-5 h-5 cursor-pointer" src="../assets/images/face1.png" alt="photo" />
+          <img class="w-5 h-5 cursor-pointer" src="../assets/images/inst.png" alt="photo" />
         </div>
       </div>
       <div class="center leading-10 lg:pt-[52px] text-white ">
@@ -37,17 +37,17 @@
       <div class="right leading-10 lg:pt-[52px] text-white">
         <h2 class="font-extrabold text-xl pb-5 font-Mont800">Полезные ссылки</h2>
         <ul>
-          <li class="text-white flex items-center">
-            <img class="w-[9px] h-[9px] mr-[6px]" src="../assets/images/r.png" alt="photo">
-            Вакансии
+          <li class="text-white flex items-center ">
+            <img class="w-[9px] h-[9px] mr-[6px] cursor-pointer" src="../assets/images/r.png" alt="photo">
+            <p class="cursor-pointer hover:text-brand-color transition">Вакансии</p>
           </li>
-          <li class="text-white flex items-center">
-            <img class="w-[9px] h-[9px] mr-[6px]" src="../assets/images/r.png" alt="photo">
-            Раскрытие Информации
+          <li class="text-white flex items-center cursor-pointer hover:text-brand-color transition">
+            <img class="w-[9px] h-[9px] mr-[6px] cursor-pointer" src="../assets/images/r.png" alt="photo">
+            <p class="cursor-pointer hover:text-brand-color transition">Раскрытие Информации</p>
           </li>
-          <li class="text-white flex items-center">
-            <img class="w-[9px] h-[9px] mr-[6px]" src="../assets/images/r.png" alt="photo">
-            Приглашения Тендер
+          <li class="text-white flex items-center cursor-pointer hover:text-brand-color transition">
+            <img class="w-[9px] h-[9px] mr-[6px] cursor-pointer" src="../assets/images/r.png" alt="photo">
+            <p class="cursor-pointer hover:text-brand-color transition">Приглашения Тендер</p>
           </li>
           <h2 class="text-[#FBBE07] pt-3">При наступлении страхового случая:</h2>
           <li class="text-white flex items-center">

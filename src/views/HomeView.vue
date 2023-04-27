@@ -4,12 +4,13 @@
     :autoplay="{
       delay: 3000,
       disableOnInteraction: false,
+      
     }"
       :navigation="true" :style="{
         '--swiper-navigation-color': '#fff',
         '--swiper-pagination-color': '#fff',
-      }">
-     
+      }"
+      >
       <swiper-slide class="swiper">
         <div class="container">
           <h1 class="font-Mont800">Страхование груза в пути</h1>
@@ -31,6 +32,7 @@
           <TheButton type="bg-brand-color" color="text-black" @action="someMethod">Подробнее</TheButton>
         </div>
       </swiper-slide>
+
     </swiper>
   </section>
   <Services />
@@ -85,18 +87,20 @@ export default {
 <!-- https://s0.rbk.ru/v6_top_pics/media/img/1/39/756382677989391.jpg -->
 
 <style>
-
+/* .swiper-button-prev{
+  display: flex;
+  color: white;
+  background: url( '../assets/images/left.png') no-repeat center / cover; 
+} */
 
 .swiper-button-prev::after {
-  content: 
-  url( '../assets/images/left.png') "Корпоративное страхование";
+  content: url( '../assets/images/left.png') "Корпоративное страхование" ;
   position: relative;
   top: 300px;
   font-weight: 600;
 font-size: 15px;
 line-height: 34px;
 color: #9E9E9E;
-width: 200px;
 padding-left: 150px;
 }
 
@@ -112,8 +116,8 @@ padding-left: 150px;
 font-size: 15px;
 line-height: 34px;
 color: #9E9E9E;
-width: 200px;
-padding-right: 300px;
+padding-bottom: 25px;
+padding-right: 200px;
 }
 
 .swiper-wrap .swiper {

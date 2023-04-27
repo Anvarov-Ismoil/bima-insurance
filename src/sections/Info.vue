@@ -5,7 +5,7 @@
       <div class="top flex justify-between py-20 items-center">
         <div class="flex items-center gap-8">
           <TheTitle>О компании в цифрах</TheTitle>
-          <div class="center flex items-center gap-8 pb-10">
+          <div class="center flex items-center gap-8 pb-10 font-Mont600">
             <img src="../assets/images/logo_black.png" alt="#" />
             <h2 class="text-xl">
               Год основания:
@@ -29,8 +29,8 @@
                 <img :src="item.image" alt="/#/" class="object-cover">
               </div>
               <div class="text-left">
-                <h1 class="text-dark-gray text-[18px] font-extrabold">{{ item.number }}</h1>
-                <p class="text-[#8D8D8D] text-base">{{ item.text }}</p>
+                <h1 class="text-dark-gray text-[18px] font-Mont800">{{ item.number }}</h1>
+                <p class="text-[#8D8D8D] text-base font-Mont600">{{ item.text }}</p>
               </div>
             </div>
           </div>
