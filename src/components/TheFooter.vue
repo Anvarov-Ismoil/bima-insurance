@@ -1,6 +1,6 @@
 <template>
-  <footer class=" bg-[#2F2E33]   mt-[90px]">
-    <div class="container flex justify-between flex-wrap px-16 py-4 gap-16 font-Mont600">
+  <footer class="bg-[#2F2E33] mt-section">
+    <div class="container flex justify-between flex-wrap py-4 gap-8 md:gap-16 font-Mont600">
       <div class="left">
         <img class="pt-[36px] mb-[20px]" src="../assets/images/logo.png" alt="photo" />
         <h3 class="text-[#fff] text-[15px]">

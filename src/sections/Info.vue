@@ -2,26 +2,26 @@
   <section class="info">
     <div class="container">
       <!-- top -->
-      <div class="top flex justify-between py-20 items-center">
-        <div class="flex items-center gap-8">
+      <div class="top flex justify-center lg:justify-between flex-wrap py-20 items-start lg:items-center">
+        <div class="flex items-center flex-wrap justify-center lg:justify-between gap-3 xl:gap-8">
           <TheTitle>О компании в цифрах</TheTitle>
-          <div class="center flex items-center gap-8 pb-10 font-Mont600">
-            <img src="../assets/images/logo_black.png" alt="#" />
-            <h2 class="text-xl">
-              Год основания:
-              <span class="text-2xl text-brand-color mt-8 px-2">2014</span>
-            </h2>
-          </div>
+          <div class="pb-10 flex items-center gap-8 font-Mont600">
+              <img src="../assets/images/logo_black.png" alt="#" class="hidden sm:block"/>
+              <h2 class="text-xl">
+                Год основания:
+                <span class="text-2xl text-brand-color mt-8 px-2">2014</span>
+              </h2>
+            </div>
         </div>
-        <div class="pb-10">
+        <div class="lg:pb-10">
           <TheButton type="bg-brand-color" color="text-dark-grey">
             2019 год <i class="fas fa-chevron-down text-[10px]"></i>
           </TheButton>
         </div>
       </div>
       <!-- bottom -->
-      <div class="bottom flex justify-between align-center">
-        <div class="w-[50%] flex flex-wrap items-center justify-evenly">
+      <div class="bottom flex flex-wrap justify-between align-center">
+        <div class="w-full xl:w-[50%] flex flex-wrap items-center justify-center xl:justify-evenly gap-10 mb-5 xl:mb-0">
           <div class="item w-[250px]" v-for="item in infoArray" :key="item">
             <div class="flex items-center justify-between gap-5">
               <div class="image-block flex items-center justify-center 
@@ -35,8 +35,8 @@
             </div>
           </div>
         </div>
-        <div class="w-[50%] map">
-          <div class="image-block flex justify-end">
+        <div class="w-full xl:w-[50%] map">
+          <div class="image-block flex justify-center xl:justify-end">
             <img src="../assets/images/xarita.png" alt="" />
           </div>
         </div>
