@@ -9,8 +9,8 @@
           и мирового опыта
         </h3>
         <div class="flex gap-3 mt-12">
-          <img class="w-5 h-5 cursor-pointer" src="../assets/images/face1.png" alt="photo" />
-          <img class="w-5 h-5 cursor-pointer" src="../assets/images/inst.png" alt="photo" />
+          <img class="w-5 h-5 cursor-pointer hover:w-[21.5px] hover:h-[21.5px]" src="../assets/images/face1.png" alt="photo" />
+          <img class="w-5 h-5 cursor-pointer hover:w-[21.5px] hover:h-[21.5px]" src="../assets/images/inst.png" alt="photo" />
         </div>
       </div>
       <div class="center leading-10 lg:pt-[52px] text-white ">
@@ -39,15 +39,15 @@
         <ul>
           <li class="text-white flex items-center ">
             <img class="w-[9px] h-[9px] mr-[6px] cursor-pointer" src="../assets/images/r.png" alt="photo">
-            <p class="cursor-pointer hover:text-brand-color transition">Вакансии</p>
+            <p class="cursor-pointer hover:text-brand-color transition hover:text-[16.5px]">Вакансии</p>
           </li>
           <li class="text-white flex items-center cursor-pointer hover:text-brand-color transition">
             <img class="w-[9px] h-[9px] mr-[6px] cursor-pointer" src="../assets/images/r.png" alt="photo">
-            <p class="cursor-pointer hover:text-brand-color transition">Раскрытие Информации</p>
+            <p class="cursor-pointer hover:text-brand-color transition hover:text-[16.5px]">Раскрытие Информации</p>
           </li>
           <li class="text-white flex items-center cursor-pointer hover:text-brand-color transition">
             <img class="w-[9px] h-[9px] mr-[6px] cursor-pointer" src="../assets/images/r.png" alt="photo">
-            <p class="cursor-pointer hover:text-brand-color transition">Приглашения Тендер</p>
+            <p class="cursor-pointer hover:text-brand-color transition hover:text-[16.5px]">Приглашения Тендер</p>
           </li>
           <h2 class="text-[#FBBE07] pt-3">При наступлении страхового случая:</h2>
           <li class="text-white flex items-center">
