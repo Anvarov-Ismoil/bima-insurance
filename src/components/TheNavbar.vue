@@ -38,11 +38,19 @@
         <!-- bottom -->
         <div class="bottom pt-5 pl-8">
           <ul class="flex items-center justify-center md:justify-between flex-wrap gap-4 md:gap-0">
-            <li v-for="item in menuArray" :key="item" class="flex items-center justify-center gap-2 text-white">
+            <li v-for="item in menuArray" :key="item" class="flex items-center justify-center gap-2 text-white relative">
               <router-link :to="item.route" :class="checkRouteToChangeLinkColor">
                 {{ item.title }}
               </router-link>
               <i :class="item.icon" class="text-[10px]"></i>
+              <div v-if="item.childmenu" class="z-10 divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700 absolute top-10">
+                <ul class="py-2 text-sm text-gray-200">
+                  <li v-for="childItem in item.childmenu" :key="childItem">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                      {{ childItem.title }}</a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <div class="search cursor-pointer">
               <i class="fas fa-search text-brand-color"></i>
@@ -70,7 +78,16 @@ export default {
           title: "O нас",
           route: "#",
           icon: "fas fa-chevron-down",
-          childmenu: "lalala",
+          childmenu: [
+            {
+              title: 'Text 1',
+              route: '#'
+            },
+            {
+              title: 'Text 2',
+              route: '#'
+            }
+          ],
         },
         {
           title: "Активация полиса",
