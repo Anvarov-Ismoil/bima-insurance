@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <routerview />
   <div class="imagemain w-[100%] mt-[100px] h-[200px] xl:h-[400px]">
     <div class=" container  pt-[60px] xl:pt-[200px]">
@@ -6,16 +6,16 @@
         <p class="text-[#5b5b5b]">Главная     /     Новости</p>
     </div>
   </div>
-  <!-- --------------------------------------- -->
+  ---------------------------------------
   <div class="bg-[#E5E5E5] mt-[50px]">
-    <!-- <NewsCard
+     <NewsCard
         
         
       v-for="item in NewsArray"
       :key="item"
       :image="item.image"
       :title="item.title"
-    /> -->
+    />
     <div
       class="container pb-[50px] pt-[20px] grid gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3"
     >
@@ -207,4 +207,4 @@ export default {
 }
 
 
-</style>
+</style> -->
