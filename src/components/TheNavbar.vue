@@ -1,12 +1,12 @@
 <template>
-  <header class="fixed top-0 left-0 right-0 z-50 font-Mont600 overflow-y-scroll h-auto"
+  <header class="fixed top-0 left-0 right-0 z-50 font-Mont600"
     :class="[is_navbar_active ? 'scroll' : 'bg-transparent', checkRouteToChangeNavColor]">
     <div class="container py-5 flex items-center xl:items-start justify-between gap-8 xxl:gap-56">
       <div class="logo w-28 md:w-52">
         <img src="../assets/images/logo.png" alt="logo" class="w-full h-full object-cover" />
       </div>
       <div v-if="isMenuOpened"
-        class="content p-12 pt-0 md:p-20 md:pl-5 xl:p-0 bg-black xl:bg-transparent w-full h-[100vh] xl:h-auto xl:border-l-white/30 xl:border-l-[1px] fixed top-0 left-0 z-20 xl:static">
+        class="content p-12 pt-0 md:p-20 md:pl-5 xl:p-0 bg-black xl:bg-transparent w-full h-[100vh] xl:h-auto xl:border-l-white/30 xl:border-l-[1px] fixed top-0 left-0 z-20 xl:static overflow-y-scroll">
         <!-- top -->
         <div
           class="top flex items-center justify-center lg:justify-between flex-wrap border-b-white/30 border-b-[1px] pb-5 xl:pl-8 mt-20 xl:mt-0">
