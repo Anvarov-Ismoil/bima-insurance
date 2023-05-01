@@ -6,7 +6,7 @@
         <img src="../assets/images/logo.png" alt="logo" class="w-full h-full object-cover" />
       </div>
       <div v-if="isMenuOpened"
-        class="content p-12 pt-0 md:p-20 md:pl-5 xl:p-0 bg-black xl:bg-transparent w-full h-[100vh] xl:h-auto xl:border-l-white/30 xl:border-l-[1px] fixed top-0 left-0 z-20 xl:static overflow-y-scroll">
+        class="content p-12 pt-0 md:p-20 md:pl-5 xl:p-0 bg-black xl:bg-transparent w-full h-[100vh] xl:h-auto xl:border-l-white/30 xl:border-l-[1px] fixed top-0 left-0 z-20 xl:static overflow-y-scroll lg:overflow-y-visible">
         <!-- top -->
         <div
           class="top flex items-center justify-center lg:justify-between flex-wrap border-b-white/30 border-b-[1px] pb-5 xl:pl-8 mt-20 xl:mt-0">
@@ -176,21 +176,21 @@ export default {
       }
     },
   },
-  // mounted() {
-  //   const winWidth = window.innerWidth
-  //   window.addEventListener("scroll", () => {
-  //     window.pageYOffset > 0
-  //       ? (this.is_navbar_active = true)
-  //       : (this.is_navbar_active = false);
-  //     if (winWidth < 800 && this.is_navbar_active == true) {
-  //       this.isMenuOpened = false
-  //     }
-  //   }),
+  mounted() {
+    const winWidth = window.innerWidth
+    window.addEventListener("scroll", () => {
+      window.pageYOffset > 0
+        ? (this.is_navbar_active = true)
+        : (this.is_navbar_active = false);
+      if (winWidth < 800 && this.is_navbar_active == true) {
+        this.isMenuOpened = false
+      }
+    }),
 
 
-  //     window.addEventListener('resize', this.checkScreenWidth)
-  //   this.checkScreenWidth()
-  // }
+      window.addEventListener('resize', this.checkScreenWidth)
+    this.checkScreenWidth()
+  }
 };
 </script>
 
@@ -199,5 +199,9 @@ export default {
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(5px);
   transition: 0.3s;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
 }
 </style>
