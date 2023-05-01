@@ -128,7 +128,7 @@ export default {
   },
   methods: {
     checkScreenWidth() {
-      const winWidth = window.innerWidth
+      const winWidth = windgitow.innerWidth
 
       if (winWidth <= 1280) {
         this.isMenuOpened = false
