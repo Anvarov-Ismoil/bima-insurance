@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <routerview />
   <div class="imagemain w-[100%] mt-[100px] h-[200px] xl:h-[400px]">
     <div class=" container  pt-[60px] xl:pt-[200px]">
@@ -180,4 +180,4 @@ export default {
   box-shadow: 0px 0px 12px 3px rgba(56, 56, 56, 0.05);
   border-radius: 2px;
 }
-</style> -->
+</style>
