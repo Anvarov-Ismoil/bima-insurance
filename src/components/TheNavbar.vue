@@ -43,7 +43,7 @@
               <router-link :to="item.route" :class="checkRouteToChangeLinkColor">
                 {{ item.title }}
               </router-link>
-              <i :class="item.icon, 
+              <i :class="item.icon
               [menuArray[idx].isDropdownOpened === true ? '-rotate-180' : '-rotate-0']" 
               class="text-[10px] transition-all duration-300"></i>
                 <div v-if="menuArray[idx].isDropdownOpened"
