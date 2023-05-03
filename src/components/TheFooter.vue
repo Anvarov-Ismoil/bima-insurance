@@ -40,11 +40,12 @@
         <h2 class="font-extrabold text-xl pb-5 font-Mont800">Полезные ссылки</h2>
         <ul>
           <li v-for="(item, idx) in menuArray" :key="item"
-            class="flex items-center  gap-2 text-white relative cursor-pointer hover:text-brand-color transition" @click="openDropdown(idx)">
+            class="flex items-center  gap-2 text-white relative cursor-pointer hover:text-brand-color transition"
+            @click="openDropdown(idx)">
             <i :class="item.icon,
               [menuArray[idx].isDropdownOpened === true ? 'rotate-90' : '-rotate-0']"
               class="text-[10px] transition-all duration-300 text-brand-color"></i>
-            <router-link :to="item.route" :class="checkRouteToChangeLinkColor" class="hover:text-brand-color transition hover:text-[16.5px]">
+            <router-link :to="item.route" class="text-white hover:text-brand-color transition-all hover:text-[16.5px]">
               {{ item.title }}
             </router-link>
             <div v-if="menuArray[idx].isDropdownOpened"
@@ -141,43 +142,12 @@ export default {
       ],
     }
   },
-      computed: {
-        checkRouteToChangeNavColor() {
-          const routeName = this.$route.name
-          if (routeName === 'home') return 'bg-transparent'
-          return 'bg-white'
-        },
-        checkRouteToChangeLinkColor() {
-          const routeName = this.$route.name
-          if (routeName === 'home') return 'text-white'
-          return 'text-black'
-        },
-      },
-      methods: {
-        openDropdown(idx) {
-          if (idx === 0) {
-            if (this.menuArray[idx].isDropdownOpened == false) {
-              this.menuArray[idx].isDropdownOpened = true
-            } else {
-              this.menuArray[idx].isDropdownOpened = false
-            }
-          }
-          if (idx === 1) {
-            if (this.menuArray[idx].isDropdownOpened == false) {
-              this.menuArray[idx].isDropdownOpened = true
-            } else {
-              this.menuArray[idx].isDropdownOpened = false
-            }
-          }
-          if (idx === 2) {
-            if (this.menuArray[idx].isDropdownOpened == false) {
-              this.menuArray[idx].isDropdownOpened = true
-            } else {
-              this.menuArray[idx].isDropdownOpened = false
-            }
-          }
-          
-        },
+  methods: {
+    openDropdown(idx) {
+      if (idx >= 0 && idx < this.menuArray.length) {
+        this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
+      }
+    }
   },
 }
 </script>
