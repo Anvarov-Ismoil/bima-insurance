@@ -29,7 +29,7 @@
               <span class="text-white">(44) 601 55 11</span>
             </p>
             <ul>
-              <li @click="isActive" class="text-white relative cursor-pointer" id="dropdownRadioBgHoverButton" data-dropdown-toggle="dropdownRadioBgHover">
+              <li @click="isActive" class="text-white relative cursor-pointer items-center text-left" id="dropdownRadioBgHoverButton" data-dropdown-toggle="dropdownRadioBgHover">
                 Русский <i class="fas fa-chevron-down text-[14px] transition-all duration-300" :class=" 
               [isDropdownActive === true ? '-rotate-180' : '-rotate-0']"></i>
             <div v-if="isDropdownActive" id="dropdownRadioBgHover" class="z-10 w-32 divide-y divide-gray-100 rounded-lg shadow bg-gray-700 absolute top-10 left-0 right-0">
