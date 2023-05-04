@@ -33,10 +33,3 @@ image: {
 },
 }
 </script>
-
-<style scoped>
-.news-card:first-child {
-grid-column: 1/4;
-grid-row: 1/3;
-}
-</style>
