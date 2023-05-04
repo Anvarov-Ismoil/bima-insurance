@@ -122,8 +122,16 @@ export default {
           isDropdownOpened: false,
           childmenu: [
             {
-              title: 'Text 1',
-              route: '#'
+              title: 'Главная',
+              route: '/'
+            },
+            {
+              title: 'Наша команда',
+              route: 'about'
+            },
+            {
+              title: 'Новости',
+              route: 'news'
             },
             {
               title: 'Обратная связь',
@@ -146,11 +154,15 @@ export default {
           isDropdownOpened: false,
           childmenu: [
             {
-              title: 'Menu 1',
+              title: '«СПОКОЙСТВИЕ ЗА РУЛЕМ»',
+              route: 'service'
+            },
+            {
+              title: 'Автострахование',
               route: '#'
             },
             {
-              title: 'Menu 2',
+              title: 'Корпоративное страхование',
               route: '#'
             },
           ],
@@ -207,7 +219,7 @@ export default {
     openDropdown(idx) {
       if (idx >= 0 && idx < this.menuArray.length) {
         this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
-      }
+      }     
     },
     isActive() {
       if (this.isDropdownActive == false) {

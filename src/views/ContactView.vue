@@ -5,8 +5,8 @@
       <div class="container relative z-10">
         <div class=" w-[100%] mt-[100px] h-[200px] xl:h-[400px]">
           <div class=" container  pt-[60px] xl:pt-[200px]">
-            <h1 class="text-3xl font-semibold text-[#fffbfb]">Новости</h1>
-            <p class="text-[#5b5b5b]">Главная / Новости</p>
+            <h1 class="text-3xl font-semibold text-[#fffbfb]">Обратная связь</h1>
+            <p class="text-[#5b5b5b]">Главная     /     О нас     /     Обратная связь</p>
           </div>
         </div>
         <!-- ---------------------------------------
