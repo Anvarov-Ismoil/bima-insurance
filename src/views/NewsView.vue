@@ -2,21 +2,23 @@
   <section class="News-page my-section">
     <div class="main">
       <div class="container relative z-10">
-        <div class=" w-[100%] mt-[100px] h-[200px] xl:h-[400px]">
+        <div class=" w-[100%] mt-[100px] h-[200px] xl:h-[395px]">
           <div class=" container  pt-[60px] xl:pt-[160px] flex flex-col gap-12 xl:gap-32">
             <h1 class="text-2xl  lg:text-5xl  text-[#fffbfb] font-Mont800 ">Новости</h1>
-            <p class="text-[#ffffff] leading-8 font-Mont600 ">Главная     /     Новости</p>
+            <p class="text-[#ffffff] leading-8 font-Mont600 ">Главная / Новости</p>
           </div>
         </div>
       </div>
     </div>
 
     <div class="news mt-20">
+      <div class="container">
         <div class="wrapper flex justify-center items-stretch flex-wrap gap-20 w-full">
           <NewsCard v-for="item in newsArray" :key="item" :title="item.title" :desc="item.desc" :subtitle="item.subtitle"
-          :image="item.image" />
+            :image="item.image" />
         </div>
       </div>
+    </div>
   </section>
 </template>
 
@@ -79,9 +81,18 @@ export default {
 
 <style scoped>
 .main {
-  background: url('../assets/images/contact-bg.png') no-repeat center / cover;
+  background: url('../assets/images/contact-bg.png') no-repeat;
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
   position: relative;
+}
+
+@media(min-width: 768px) {
+  .main{
+    background-size: contain; 
+    background-position: 0 129px;
+  }
 }
 
 .main::after {

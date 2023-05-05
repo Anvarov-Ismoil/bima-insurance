@@ -1,6 +1,6 @@
 <template>
-  <div class="imagemain w-[100%] mt-[100px] h-[200px] xl:h-[400px]">
-    <div class="container pt-[40px] md:pt-[50px] xl:pt-[170px] xl:tracking-wide md:text-[18px] xl:text-[33px] font-bold">
+  <div class="imagemain w-[100%] mt-[100px] h-[200px] xl:h-[395px]">
+    <div class="container pt-[40px] md:pt-[50px] xl:pt-[170px] xl:tracking-wide md:text-[18px] xl:text-[33px] font-bold relative z-10">
       <h1 class="text-[#fff]">
         Коробочный продукт страхования<br />
         <span class="text-brand-color">«СПОКОЙСТВИЕ ЗА РУЛЕМ»</span>
@@ -147,13 +147,18 @@ p {
 }
 
 .imagemain {
-  content: "";
-  background: linear-gradient(90deg,
-      rgba(5, 7, 9, 0.65) 50%,
-      rgba(26, 29, 32, 0.55) 98.28%);
-  opacity: 1;
+  background: url(../assets/images/contact-bg.png) no-repeat 0 129px / contain;
+  background-attachment: fixed;
+  position: relative;
+}
 
-  background-image: url(../assets/images/newsmain.png);
-  background-size: cover;
+.imagemain::after{
+  content: "";
+  background: linear-gradient(
+    90deg,
+    rgba(5, 7, 9, 0.65) 50%,
+    rgba(26, 29, 32, 0.55) 98.28%
+  );
+  opacity: 1;
 }
 </style>

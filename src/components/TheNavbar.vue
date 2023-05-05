@@ -217,9 +217,15 @@ export default {
       }
     },
     openDropdown(idx) {
-      if (idx >= 0 && idx < this.menuArray.length) {
+      // if (idx >= 0 && idx < this.menuArray.length) {
+      //   this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
+      // }     
+      if (idx === 0) {
         this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
-      }     
+      }
+      if (idx === 3) {
+        this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
+      }
     },
     isActive() {
       if (this.isDropdownActive == false) {
