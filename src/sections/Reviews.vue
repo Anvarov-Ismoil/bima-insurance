@@ -4,8 +4,8 @@
       <div class="titles flex justify-between">
         <TheTitle>Отзывы</TheTitle>
         <div class="arrows flex gap-6">
-          <button class="btn btn-prev"><img src="../assets/images/Arrow 6.png" alt=""></button>
-          <button class="btn btn-next"><img src="../assets/images/Arrow 5.png" alt=""></button>
+          <button class="btn btn-prev"><img src="../assets/images/arrow_6.png" alt=""></button>
+          <button class="btn btn-next"><img src="../assets/images/arrow_5.png" alt=""></button>
         </div>
       </div>
       <swiper :modules="modules" :navigation="{

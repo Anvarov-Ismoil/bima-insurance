@@ -4,8 +4,8 @@
             <div class="titles flex justify-between">
                 <TheTitle>Популярные услуги</TheTitle>
                 <div class="arrows flex gap-6">
-                    <button class="btn"><img src="../assets/images/Arrow 6.png" alt=""></button>
-                    <button class="btn "><img src="../assets/images/Arrow 5.png" alt=""></button>
+                    <button class="btn"><img src="../assets/images/arrow_6.png" alt=""></button>
+                    <button class="btn "><img src="../assets/images/arrow_5.png" alt=""></button>
                 </div>
             </div>
             <div class="wrapper flex justify-center items-stretch flex-wrap gap-8 w-full">
