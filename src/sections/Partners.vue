@@ -4,8 +4,8 @@
       <div class="titles flex justify-between">
         <TheTitle>Наши партнеры</TheTitle>
         <div class="arrows flex gap-6">
-          <button class="btn prev"><img src="../assets/images/Arrow 6.png" alt=""></button>
-          <button class="btn next"><img src="../assets/images/Arrow 5.png" alt=""></button>
+          <button class="btn prev"><img src="../assets/images/Arrow_6.png" alt=""></button>
+          <button class="btn next"><img src="../assets/images/Arrow_5.png" alt=""></button>
         </div>
       </div>
       <swiper :modules="modules" :breakpoints="{

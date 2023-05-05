@@ -21,7 +21,7 @@
         </h3>
         <h3>
           Страховая сумма:<span class="text-brand-color"> 20 000 сомони</span>
-        </h3>
+          </h3>
       </div>
       <img class="xl:mt-[20px] mb-[20px] w-[100px] xl:h-[1.5px] xl:w-[95px]" src="../assets/images/lineyellow.png"
         alt="" />
