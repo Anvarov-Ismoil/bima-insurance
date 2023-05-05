@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <div class="bottom mt-20">
+    <div class="bottom font-Mont600 mt-20">
       <div class="container">
         <div class="wrapper p-8 flex flex-wrap">
           <!-- left -->
