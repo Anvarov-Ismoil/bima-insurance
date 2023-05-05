@@ -3,15 +3,15 @@
     <div class="container pt-[40px] md:pt-[50px] xl:pt-[170px] xl:tracking-wide md:text-[18px] xl:text-[33px] font-bold relative z-10">
       <h1 class="text-[#fff]">
         Коробочный продукт страхования<br />
-        <span class="text-brand-color">«СПОКОЙСТВИЕ ЗА РУЛЕМ»</span>
+        <span class="text-brand-color font-Mont800">«СПОКОЙСТВИЕ ЗА РУЛЕМ»</span>
       </h1>
-      <p class="text-[#fff] mt-[40px] md:mt-[40px] xl:mt-[60px] font-semibold text-[15px]">
+      <p class="text-[#fff] mt-[40px] md:mt-[40px] xl:mt-[60px] font-Mont600 text-[15px]">
         Главная / Страховые услуги / Коробочные продукты / Спокойствие за рулем
       </p>
     </div>
   </div>
   <!-- ------------------------------------ -->
-  <div class="bg-[#E5E5E5] mt-[40px]">
+  <div class="bg-[#E5E5E5] mt-[40px] font-Mont600">
     <div class="container cont pt-[30px] ">
       <div class="flex gap-4 xl:justify-between">
         <h1 class="font-bold text-[15px] md:mr-[135px]">СПОКОЙСТВИЕ ЗА РУЛЕМ</h1>
@@ -152,16 +152,14 @@ p {
   position: relative;
 }
 
-.imagemain::after{
-  content: "";
+.imagemain::after {
+  content: '';
   width: 100%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  background: linear-gradient(90deg,
-      rgba(5, 7, 9, 0.65) 50%,
-      rgba(26, 29, 32, 0.55) 98.28%);
-  opacity: 1;
+  background: linear-gradient(90deg, rgba(26, 29, 32, 0.65) 50%, rgba(26, 29, 32, 0.55) 98.28%);
+  opacity: 0.85;
 }
 </style>
