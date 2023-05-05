@@ -9,8 +9,10 @@
           и мирового опыта
         </h3>
         <div class="flex gap-3 mt-12">
-          <img class="w-5 h-5 cursor-pointer hover:w-[21.5px] hover:h-[21.5px]" src="../assets/images/face1.png" alt="photo" />
-          <img class="w-5 h-5 cursor-pointer hover:w-[21.5px] hover:h-[21.5px]" src="../assets/images/inst.png" alt="photo" />
+          <img class="w-5 h-5 cursor-pointer hover:w-[21.5px] hover:h-[21.5px]" src="../assets/images/face1.png"
+            alt="photo" />
+          <img class="w-5 h-5 cursor-pointer hover:w-[21.5px] hover:h-[21.5px]" src="../assets/images/inst.png"
+            alt="photo" />
         </div>
       </div>
       <div class="center leading-10 lg:pt-[52px] text-white ">
@@ -37,17 +39,26 @@
       <div class="right leading-10 lg:pt-[52px] text-white">
         <h2 class="font-extrabold text-xl pb-5 font-Mont800">Полезные ссылки</h2>
         <ul>
-          <li class="text-white flex items-center ">
-            <img class="w-[9px] h-[9px] mr-[6px] cursor-pointer" src="../assets/images/r.png" alt="photo">
-            <p class="cursor-pointer hover:text-brand-color transition hover:text-[16.5px]">Вакансии</p>
-          </li>
-          <li class="text-white flex items-center cursor-pointer hover:text-brand-color transition">
-            <img class="w-[9px] h-[9px] mr-[6px] cursor-pointer" src="../assets/images/r.png" alt="photo">
-            <p class="cursor-pointer hover:text-brand-color transition hover:text-[16.5px]">Раскрытие Информации</p>
-          </li>
-          <li class="text-white flex items-center cursor-pointer hover:text-brand-color transition">
-            <img class="w-[9px] h-[9px] mr-[6px] cursor-pointer" src="../assets/images/r.png" alt="photo">
-            <p class="cursor-pointer hover:text-brand-color transition hover:text-[16.5px]">Приглашения Тендер</p>
+          <li v-for="(item, idx) in menuArray" :key="item"
+            class="flex items-center  gap-2 text-white relative cursor-pointer hover:text-brand-color transition"
+            @click="openDropdown(idx)">
+            <i :class="item.icon,
+              [menuArray[idx].isDropdownOpened === true ? 'rotate-90' : '-rotate-0']"
+              class="text-[10px] transition-all duration-300 text-brand-color"></i>
+            <router-link :to="item.route" class="text-white hover:text-brand-color transition-all hover:text-[16.5px]">
+              {{ item.title }}
+            </router-link>
+            <div v-if="menuArray[idx].isDropdownOpened"
+              class="z-10 divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700 absolute top-10 left-0 right-0">
+              <ul class="py-2 text-sm text-gray-200">
+                <li v-for="childItem in item.childmenu" :key="childItem">
+                  <router-link :to="childItem.route"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                    {{ childItem.title }}
+                  </router-link>
+                </li>
+              </ul>
+            </div>
           </li>
           <h2 class="text-[#FBBE07] pt-3">При наступлении страхового случая:</h2>
           <li class="text-white flex items-center">
@@ -62,15 +73,81 @@
       </div>
     </div>
     <div class="container">
-        <hr class="text-white"/>
-        <div class="flex justify-center md:justify-between flex-wrap py-5 gap-5">
-          <p class="text-white order-1 md:order-none">© 2021. Все права защищены</p>
-          <p class="text-white text-center">Разработка сайта: 
-            <span class="text-gray-400">
-              Online Service Group
-            </span>
-          </p>
-        </div>
+      <hr class="text-white" />
+      <div class="flex justify-center md:justify-between flex-wrap py-5 gap-5">
+        <p class="text-white order-1 md:order-none">© 2021. Все права защищены</p>
+        <p class="text-white text-center">Разработка сайта:
+          <span class="text-gray-400">
+            Online Service Group
+          </span>
+        </p>
       </div>
+    </div>
   </footer>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      menuArray: [
+        {
+          title: "Вакансии",
+          icon: "fas fa-chevron-right",
+          route: '',
+          isDropdownOpened: false,
+          childmenu: [
+            {
+              title: 'Text 1',
+              route: '#'
+            },
+            {
+              title: 'Text 2',
+              route: '#'
+            }
+          ]
+        },
+        {
+          title: "Раскрытие Информации",
+          icon: "fas fa-chevron-right",
+          route: '',
+          isDropdownOpened: false,
+          childmenu: [
+            {
+              title: 'Info 1',
+              route: '#'
+            },
+            {
+              title: 'Info 2',
+              route: '#'
+            },
+          ],
+        },
+        {
+          title: "Приглашения Тендер",
+          icon: "fas fa-chevron-right",
+          route: '',
+          isDropdownOpened: false,
+          childmenu: [
+            {
+              title: 'Tender 1',
+              route: '#'
+            },
+            {
+              title: 'Tender 2',
+              route: '#'
+            },
+          ],
+        },
+      ],
+    }
+  },
+  methods: {
+    openDropdown(idx) {
+      if (idx >= 0 && idx < this.menuArray.length) {
+        this.menuArray[idx].isDropdownOpened = !this.menuArray[idx].isDropdownOpened;
+      }
+    }
+  },
+}
+</script>
