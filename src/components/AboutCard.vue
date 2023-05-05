@@ -1,6 +1,6 @@
 <template>
-    <div class="card w-[300px] lg:w-[339px] bg-white rounded-md shadow-md overflow-hidden">
-        <div class="image-block w-[270px] lg:w-[339px] lg:h-[220px]">
+    <div class="card w-[245px] sm:w-[290px] lg:w-[340px] bg-white rounded-md shadow-md overflow-hidden">
+        <div class="image-block lg:w-[340px] lg:h-[220px]">
             <img :src="image" alt="#" class="w-full h-full object-cover" />
         </div>
         <div class="content p-5 flex flex-col gap-3">

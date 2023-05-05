@@ -3,7 +3,7 @@
     <div class="main">
       <div class="container relative z-10">
         <div class=" w-[100%] mt-[100px] h-[200px] xl:h-[400px]">
-          <div class=" container  pt-[60px] xl:pt-[160px] flex flex-col gap-12 xl:gap-32">
+          <div class="content py-[35px] md:pt-[65px] xl:pt-[160px] flex flex-col gap-12 xl:gap-32">
             <h1 class="text-2xl lg:text-4xl  text-[#fffbfb] font-Mont800 ">Наша команда</h1>
             <p class="text-[#ffffff] leading-8 font-Mont600 ">Главная / О нас / Наша команда</p>
           </div>
