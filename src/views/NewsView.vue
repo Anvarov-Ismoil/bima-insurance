@@ -13,7 +13,7 @@
 
     <div class="news mt-20">
       <div class="container">
-        <div class="wrapper flex justify-center items-stretch flex-wrap gap-20 w-full">
+        <div class="wrapper flex justify-center items-stretch flex-wrap gap-16 w-full">
           <NewsCard v-for="item in newsArray" :key="item" :title="item.title" :desc="item.desc" :subtitle="item.subtitle"
             :image="item.image" />
         </div>

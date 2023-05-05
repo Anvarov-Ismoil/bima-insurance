@@ -152,13 +152,14 @@ p {
   position: relative;
 }
 
-.imagemain::after{
-  content: "";
-  background: linear-gradient(
-    90deg,
-    rgba(5, 7, 9, 0.65) 50%,
-    rgba(26, 29, 32, 0.55) 98.28%
-  );
-  opacity: 1;
+.imagemain::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(90deg, rgba(26, 29, 32, 0.65) 50%, rgba(26, 29, 32, 0.55) 98.28%);
+  opacity: 0.85;
 }
 </style>
